@@ -12,16 +12,14 @@ const Signup = () => {
           <div className='signup_container_details_form_container'>
             <label htmlFor='firstName'>First Name</label>
             <input id="firstName" type='text' name='firstName' placeholder='John'/>
-            <br/>
             <label htmlFor='lastName'>Last Name</label>
             <input id="lastName" type='text' name='lastName' placeholder='Doe'/>
-            <br/>
             <label htmlFor="email">Email</label>
             <input id="email" type="text" placeholder='jDoe@fakeEmail.net'/>
-            <br/>
             <label htmlFor="password">Password</label>
             <input id="password" type="password" placeholder='******'/>
           </div>
+          <br/>
           <button>Submit</button>
           </form>
       </div>

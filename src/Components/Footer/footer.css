@@ -4,9 +4,89 @@
     position: sticky;
     top: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+
     min-width: 100vw;
-    background-color: aquamarine;
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
 }
 
+.footer_container_top{
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_container_top_section1{
+    border: 2px solid black;
+    flex: 1;
+
+}
+
+.footer_container_top_section1_logotitle{
+    display: flex;
+
+}
+
+
+.footer_container_section1_icons{
+    display: flex;
+}
+
+.footer_container_section1_icons p {
+    border: 2px solid black;
+}
+
+.footer_container_top_section2{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+
+}
+
+.footer_container_top_section2_description {
+    display: flex;
+    flex: 1;
+
+    border: 2px solid black;
+}
+
+.footer_container_top_section2_contact{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+
+    border: 2px solid black;
+}
+
+.footer_container_top_section2_contact_title{
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    
+}
+
+.footer_container_top_section2_contact_bullets{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.footer_container_bottom{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.footer_container_bottom_links{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_container_bottom_links_icons{
+    display: flex;
+}

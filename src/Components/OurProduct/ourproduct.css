@@ -2,6 +2,7 @@
 .ourproduct_container_container{
     display: flex;
     justify-content: center;
+ 
 }
 .ourproduct_container{
     display: flex;
@@ -11,6 +12,7 @@
     max-width: 60vw;
     justify-content: center;
     align-items: center;
+
 }
 
 .ourproduct_container_title{

@@ -3,7 +3,7 @@
     flex-direction: row;
     justify-content: space-between;
     border: 2px solid black;
-
+    
 }
 
 .signup_container_title{
@@ -27,12 +27,17 @@
     max-width: 60vw;
     min-height: 30vh;
     margin-right: 20%;
+    
   
 }
 
 .signup_container_details_description{
     border: 2px solid black;
     background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
     flex: 1;
 }
 
